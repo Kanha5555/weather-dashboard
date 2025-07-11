@@ -11,7 +11,7 @@ export default function WeatherCard({ data }) {
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.9, y: -20 }}
           transition={{ duration: 0.5 }}
-          className="p-4 border rounded shadow-md mt-4 bg-white"
+          className="p-4 border rounded shadow-md mt-4 bg-white dark:bg-gray-900 text-black dark:text-white"
         >
           <h2 className="text-xl font-bold">{data.city}</h2>
           <p>Temperature: {data.temp}°C</p>

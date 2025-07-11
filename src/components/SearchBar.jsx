@@ -67,12 +67,12 @@ export default function SearchBar() {
           className="border p-2 rounded"
         />
         {suggestions.length > 0 && (
-          <ul className="border rounded bg-white shadow max-h-40 overflow-y-auto">
+          <ul className="border rounded shadow max-h-40 overflow-y-auto">
             {suggestions.map((suggestion, idx) => (
               <li
                 key={idx}
                 onClick={() => handleSelect(suggestion)}
-                className="p-2 cursor-pointer hover:bg-gray-100"
+                className="p-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 {suggestion}
               </li>
