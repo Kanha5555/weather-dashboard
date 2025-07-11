@@ -8,6 +8,13 @@ This project is a simple **React Weather App** built using **Vite** and **Tailwi
 
 ---
 
+## 🔥 Live Demo
+
+Check out the live deployed app here:
+[Weather Outfit Recommender](http://weather-outfit-recommender.surge.sh/)
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
